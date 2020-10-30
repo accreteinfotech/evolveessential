@@ -7,12 +7,18 @@
     <!--====== Title ======-->
      <title>Evolve | Coming Soon</title>
 
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
-
+	<style>
+		body
+		{
+			background-color:#fcbdae !important; 
+		}
+	</style>
 
     <!-- CSS
     ============================================ -->
@@ -42,7 +48,9 @@
 
     <link rel="stylesheet" href="assets/css/vendor/plugins.min.css">
     <link rel="stylesheet" href="assets/css/style.min.css"> 
-
+     <style type="text/css">
+         
+     </style> 
 </head>
 
 <body>
@@ -65,14 +73,8 @@
 
         <div class="header-navbar header-navbar-white">
             <div class="container-fluid custom-container">
-                <div class="header-wrapper d-flex justify-content-between align-items-center">
-
-                    <div class="header-logo">
-                        <a>
-                            <img src="assets/images/logo-white.png" alt="Logo">
-                        </a>
-                    </div>
-
+                <div class="header-wrapper d-flex justify-content-between align-items-center" style="padding-top:20px;">
+                       <img class="img-logo" src="assets/images/Evolve-Logo-01.png" alt="Logo" style="margin-left:auto;margin-right:auto;display:block;height:300px">
                 </div>
             </div>
 
@@ -112,14 +114,16 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-9">
                     <div class="coming-soon-content text-center">
-                        <h4 class="sub-title" style="font-size:40px">Evolution</h4>
+                        <!--<h4 class="sub-title" style="font-size:40px">Evolution</h4>-->
                         <h2 class="main-title">Coming Soon</h2>
-
                         <div class="coming-soon-countdown">
                             <!--<div data-countdown="2020/11/20"></div>-->
                         </div>
+                        <div class="contact">   
+                                <a class="contact" href="tel:+918469640404" style="color: black;">For More Information <br>  Contact     +91-846-964-0404</a>
+                        </div>
                     </div>
-                </div>
+                </div><br>  
             </div>
         </div>
     </section>
